@@ -70,14 +70,16 @@ ggplot(Whickham, aes(x = smoker)) +
 
 ```{r plot_age}
 ggplot(Whickham, aes(x = age)) +
-  geom_bar()
+  geom_boxplot()
 ```
 
 
 4. 
 
-```{r plot_smokeVSincome_1}
+I expect the health will be worser and may be the person will be died after while, if he keeping smoke.
 
+```{r plot_smokeVSincome_1}
+ ggplot(data=Whickham, aes(x=smoker, y=outcome, color=outcome)) + geom_bar(stat="identity")
 ```
 
 Knit, commit, and push to github.
