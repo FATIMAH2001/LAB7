@@ -69,13 +69,12 @@ ggplot(Whickham, aes(x = smoker)) +
 ```
 
 ```{r plot_age}
-ggplot(Whickham, aes(x = age)) +
-  geom_boxplot()
+ggplot(Whickham, aes(x = age)) + geom_boxplot()
+  
 ```
 
 
 4. 
-
 I expect the health will be worser and may be the person will be died after while, if he keeping smoke.
 
 ```{r plot_smokeVSincome_1}
@@ -89,8 +88,13 @@ Knit, commit, and push to github.
 ```{r plot_smokeVSincome_2}
 Whickham %>%
   count(smoker, outcome)
+ 502+230
+ 230/732
 ```
+smoker no  (732) :   31,4 (dead) >> (68,6) alive
+smoker yes (582) :   23,8 (dead) >> (76,2) alive
 
+i dose not expected this result because now the most died people not smoker .
 6.
 
 ```{r age_cat}
