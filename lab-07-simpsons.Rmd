@@ -108,4 +108,4 @@ ggplot(data=Whickham, aes(x=outcome, y=smoker,color=smoker, fill=age_cat)) + geo
 ```
 what changes> the category of the age it's appear to us and we see the most of dead people not smoker in age (65+) but in age (45-64) and (18-44) the most dead pepole are smoker that is  relationship between the smoking and helath not clearly but can say that your helath will be change to worst if you be smoker
 
-Knit, commit, and push to github
+Knit, commit, and push to github.
